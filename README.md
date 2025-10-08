@@ -1,7 +1,7 @@
 # Generative AI-Driven Design and Machine Learning Prediction of Inhibitors Targeting Plasmodium falciparum Dihydrofolate Reductase–Thymidylate Synthase.
 ---
 ## 🔬 Project Overview
-This project integrates generative AI, machine learning, and virtual screening to design and evaluate novel inhibitors against Plasmodium ovale, a malaria-causing parasite. The pipeline fine-tunes the REINVENT framework to generate chemically diverse and biologically relevant molecules, employing an ML-based architecture to predict inhibition activity. 
+This project integrates generative AI, machine learning, and virtual screening to design and evaluate novel inhibitors against Plasmodium falciparum, a malaria-causing parasite. The pipeline fine-tunes the REINVENT framework to generate chemically diverse and biologically relevant molecules, employing an ML-based architecture to predict inhibition activity. 
 
 The workflow fine-tunes the **REINVENT** model to generate new chemical scaffolds and employs **ML**, to classify compounds as *active* or *inactive*.  
 
