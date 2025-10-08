@@ -128,4 +128,6 @@ Federal University of Technology, Owerri, Nigeria
 ## 🌍 Citation
 If you use this repository or workflow in your research, please cite as:
 
-> **Izuagba Favour Ogadinma** (2025). * Generative AI-Driven Design and Machine Learning Prediction of Inhibitors Targeting Plasmodium falciparum Dihydrofolate Reductase–Thymidylate Synthase.* GitHub Repository.  
+> **Izuagba Favour Ogadinma** (2025). * Generative AI-Driven Design and Machine Learning Prediction of Inhibitors Targeting Plasmodium falciparum Dihydrofolate Reductase–Thymidylate Synthase.* GitHub Repository.
+
+# ✨ “Combining chemistry, computation, and curiosity to discover tomorrow’s medicines.”
