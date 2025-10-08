@@ -1,7 +1,9 @@
-Molecule ChEMBL ID,Smiles,pChEMBL Value
-CHEMBL444605,CC(=O)OCCCc1nc(N)nc(N)c1-c1cccc(Cl)c1,5.28
-CHEMBL21395,CCOc1cc(Cc2cnc(N)nc2N)ccc1OCc1ccccc1,6.92
-CHEMBL291931,COc1ccc(Cc2cnc(N)nc2N)cc1OCc1ccccc1,5.24
-CHEMBL274031,Nc1ncc(Cc2cccc(OCc3ccccc3)c2)c(N)n1,4.89
-CHEMBL22139,CCCOc1cc(Cc2cnc(N)nc2N)ccc1OCc1cc(OC)c(OC)c(OC)c1,7.52
-CHEMBL29773,CCc1nc(N)nc(N)c1-c1cccc(OC)c1,7.14
+| SMILES | activity |
+|--------|-----------|
+| CCc1nc(N)nc(N)c1-c1cccc(Cl)c1 | 0 |
+| NC1=NC(c2ccc(Oc3ccccc3)cc2)N(c2ccc(Cl)cc2)C(N)=N1 | 0 |
+| COc1ccc(Cc2cnc(N)nc2N)cc1OCc1ccccc1 | 0 |
+| COc1cc(Cc2cnc(N)nc2N)ccc1OCc1ccccc1 | 0 |
+| NC1=NC(c2ccccc2)N(c2cccc(Cl)c2)C(N)=N1 | 1 |
+
+
