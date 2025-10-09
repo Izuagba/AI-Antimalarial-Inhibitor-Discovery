@@ -37,61 +37,80 @@ By coupling **generative design** with **activity classification**, this project
 - **Scaffold Analysis** — Examine scaffold overlap and diversity for chemical innovation.
 - **The Tanimoto coefficient has a range from 0 to 1 where higher values indicate greater similarity in structures.**
 - ## 📊 Model Performance Visualizations
+---
+## 📊 Model Performance Visualizations
+
+<style>
+/* Simple GitHub-safe inline CSS */
+img.visual {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease-in-out;
+}
+img.visual:hover {
+  transform: scale(1.05);
+}
+.caption {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 6px;
+}
+</style>
 
 <table>
   <tr>
     <td align="center">
-      <b>Prior Scaffold Distribution</b><br>
-      <img src="./images/prior_scaffold.png" width="400">
+      <img src="./images/prior_scaffold.png" width="380" class="visual"><br>
+      <div class="caption">Prior Scaffold Distribution</div>
     </td>
     <td align="center">
-      <b>Comparative Analysis</b><br>
-      <img src="./images/comparative_anlysis.png" width="400">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>Confusion Matrix (Best Model)</b><br>
-      <img src="./images/confusion_matrix_best_model.png" width="400">
-    </td>
-    <td align="center">
-      <b>t-SNE Plot</b><br>
-      <img src="./images/tsne_plot.png" width="400">
+      <img src="./images/comparative_anlysis.png" width="380" class="visual"><br>
+      <div class="caption">Comparative Analysis</div>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <b>t-SNE (Alternate View)</b><br>
-      <img src="./images/t-SNE.png" width="400">
+      <img src="./images/confusion_matrix_best_model.png" width="380" class="visual"><br>
+      <div class="caption">Confusion Matrix (Best Model)</div>
     </td>
     <td align="center">
-      <b>ROC–AUC Curve (Best Model)</b><br>
-      <img src="./images/ROC_AUC_BEST_MODEL.png" width="400">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>PAINS Substructure Analysis</b><br>
-      <img src="./images/PAINS_substructure.png" width="400">
-    </td>
-    <td align="center">
-      <b>Tanimoto Similarity (AI-Generated Compounds)</b><br>
-      <img src="./images/TANIMOTO_AI_COMPOUNDS.png" width="400">
+      <img src="./images/tsne_plot.png" width="380" class="visual"><br>
+      <div class="caption">t-SNE Plot</div>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <b>Finetuned Scaffold Distribution</b><br>
-      <img src="./images/finetuned_scaffold.png" width="400">
+      <img src="./images/t-SNE.png" width="380" class="visual"><br>
+      <div class="caption">t-SNE (Alternate View)</div>
     </td>
     <td align="center">
-      <b>ChEMBL Scaffold Distribution</b><br>
-      <img src="./images/chembl_scaffold.png" width="400">
+      <img src="./images/ROC_AUC_BEST_MODEL.png" width="380" class="visual"><br>
+      <div class="caption">ROC–AUC Curve (Best Model)</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./images/PAINS_substructure.png" width="380" class="visual"><br>
+      <div class="caption">PAINS Substructure Analysis</div>
+    </td>
+    <td align="center">
+      <img src="./images/TANIMOTO_AI_COMPOUNDS.png" width="380" class="visual"><br>
+      <div class="caption">Tanimoto Similarity (AI Compounds)</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./images/finetuned_scaffold.png" width="380" class="visual"><br>
+      <div class="caption">Finetuned Scaffold Distribution</div>
+    </td>
+    <td align="center">
+      <img src="./images/chembl_scaffold.png" width="380" class="visual"><br>
+      <div class="caption">ChEMBL Scaffold Distribution</div>
     </td>
   </tr>
 </table>
 
----
 ![Feature Importance](./images/feature_importance.png)
 
 ## 🧪 Drug-Likeness and Screening
