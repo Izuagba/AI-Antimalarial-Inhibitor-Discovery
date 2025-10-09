@@ -35,6 +35,61 @@ By coupling **generative design** with **activity classification**, this project
   - Compare finetuned molecules vs. *P. falciparum* (PDB: 7F3Y) inhibitors  
 - **Descriptor Distribution** — Compare four key molecular descriptors across Prior, Fine-tuned, and ChEMBL sets.  
 - **Scaffold Analysis** — Examine scaffold overlap and diversity for chemical innovation.
+- **The Tanimoto coefficient has a range from 0 to 1 where higher values indicate greater similarity in structures.**
+- ## 📊 Model Performance Visualizations
+
+<table>
+  <tr>
+    <td align="center">
+      <b>Prior Scaffold Distribution</b><br>
+      <img src="./images/prior_scaffold.png" width="400">
+    </td>
+    <td align="center">
+      <b>Comparative Analysis</b><br>
+      <img src="./images/comparative_anlysis.png" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Confusion Matrix (Best Model)</b><br>
+      <img src="./images/confusion_matrix_best_model.png" width="400">
+    </td>
+    <td align="center">
+      <b>t-SNE Plot</b><br>
+      <img src="./images/tsne_plot.png" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>t-SNE (Alternate View)</b><br>
+      <img src="./images/t-SNE.png" width="400">
+    </td>
+    <td align="center">
+      <b>ROC–AUC Curve (Best Model)</b><br>
+      <img src="./images/ROC_AUC_BEST_MODEL.png" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>PAINS Substructure Analysis</b><br>
+      <img src="./images/PAINS_substructure.png" width="400">
+    </td>
+    <td align="center">
+      <b>Tanimoto Similarity (AI-Generated Compounds)</b><br>
+      <img src="./images/TANIMOTO_AI_COMPOUNDS.png" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Finetuned Scaffold Distribution</b><br>
+      <img src="./images/finetuned_scaffold.png" width="400">
+    </td>
+    <td align="center">
+      <b>ChEMBL Scaffold Distribution</b><br>
+      <img src="./images/chembl_scaffold.png" width="400">
+    </td>
+  </tr>
+</table>
 
 ---
 ![Feature Importance](./images/feature_importance.png)
