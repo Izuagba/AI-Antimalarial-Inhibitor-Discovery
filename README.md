@@ -37,6 +37,7 @@ By coupling **generative design** with **activity classification**, this project
 - **Scaffold Analysis** — Examine scaffold overlap and diversity for chemical innovation.
 
 ---
+![Feature Importance](./images/feature_importance.png)
 
 ## 🧪 Drug-Likeness and Screening
 Generated molecules undergo a multi-stage filtering process:
